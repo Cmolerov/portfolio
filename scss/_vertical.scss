@@ -1,0 +1,185 @@
+//
+// Chat
+// 
+.profile-box-left {
+  float: left;
+  width: 230px;
+  height: 450px;
+  background-color: $bg-profile;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 20px;
+  .zoo-profile-main-pic{
+    .zoo-user-chat{
+      cursor: pointer;
+      background-color: $primary;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      line-height: 30px;
+      text-align: center;
+      position: absolute;
+      right: -60px;
+      left: 0;
+      margin: -26px auto;
+      box-shadow: 0px 0px 20px 0px rgba($gray-100,0.05);
+      i{
+        transition: all 0.3s;
+        color: $white;
+        font-size: 14px;
+      }
+    }
+  }
+  
+  .zoo-profile_user-detail{
+    text-align: center;
+    .zoo-user-name{
+      font-size: 22px;
+      font-weight: 600;
+      color: $gray-400;
+      margin-bottom: 6px;
+    }
+    .zoo-user-name-post{
+      color: $muted;
+    }
+  }
+  .profile-socials{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .personal-detail{
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 60px;
+    li{
+      color: $muted;
+      i{
+        font-size: 20px;
+      }
+    }
+  }
+  
+
+  .social-icon{
+    li{
+      a{
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        border-radius: 50%;
+        display: inline-block;
+        color: $white;
+        &:focus,
+        &:hover{
+          border: none;
+        }
+        &.bg-secondary:hover{
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+//headline//
+
+.cd-headline{
+  font-size: 15px;
+  &.loading-bar {    
+    .cd-words-wrapper::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 3px;
+      width: 0;
+      background: linear-gradient(to right, $blue, $success);
+      z-index: 2;
+      transition: width 0.3s -0.1s;
+    }
+    b {
+      color: $gray-500;
+      opacity: 0;
+      font-size: 15px;
+      padding-bottom: 5px;
+      transition: opacity 0.3s;
+    }
+  }
+}
+
+.profile-box-right{
+  width: auto;
+  background-color: $profile-box-right;
+  display: block;
+  border-radius: 3px;
+  position: relative;
+  margin-left: 230px;
+  padding-bottom: 70px;
+}  
+
+@media (min-width: 1024px) and (max-width: 1680px) {
+  .profile-box-left{
+    width: 230px;
+    float: left;
+  }
+  .profile-box-right {
+    width: auto;
+    margin-left: 230px;
+  }
+  .main-wraper {
+    max-width: 1140px;
+    margin: 100px auto 65px;
+  }
+}
+ 
+@media (min-width: 767px) and (max-width: 1023.98px) {
+  .profile-box-left{
+    width: 100%;
+    float: none;
+  }
+  .profile-box-right {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-box-left{
+    float: none;
+    width: 100%;
+    margin-top: 66px;
+  }
+  .profile-box-right {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 660px) {
+  .profile-box-left{
+    float: none;
+    width: 100%;
+  }
+  .profile-box-right {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  .profile-box-left{
+    float: none;
+    width: 100%;
+  }
+  .profile-box-right {
+    margin: 0;
+    width: 100%;
+  }
+}

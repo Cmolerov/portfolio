@@ -1,0 +1,51 @@
+//
+// Print
+// 
+
+@media print {
+  body{
+    background-color: $white !important;
+  }
+  .container{
+    max-width:100%;
+  }
+  .main-wraper{
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+  .thanks-text{
+    display: block;
+  }
+  .my-work,
+  .bg-funfact,
+  .my-clients,
+  .contact-form,
+  .footer-area{
+    display: none;
+  }
+  
+  .col-print-1 {width:8%;  float:left;}
+  .col-print-2 {width:16%; float:left;}
+  .col-print-3 {width:25%; float:left;}
+  .col-print-4 {width:33%; float:left;}
+  .col-print-5 {width:42%; float:left;}
+  .col-print-6 {width:50%; float:left;}
+  .col-print-7 {width:58%; float:left;}
+  .col-print-8 {width:66%; float:left;}
+  .col-print-9 {width:75%; float:left;}
+  .col-print-10{width:83%; float:left;}
+  .col-print-11{width:92%; float:left;}
+  .col-print-12{width:100%; float:left;}
+
+
+  .profile-box-left{
+    width:20% !important; 
+    left: 0;
+    position: absolute;
+  }
+  .profile-box-right{
+    position: relative;
+    width:80% !important; 
+    margin-left: 20% !important;
+  }
+}
