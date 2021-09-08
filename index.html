@@ -1,261 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Carlos Molero - Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Carlos Coria Portfolio Site" name="description" />
-        <meta content="Mannatthemes" name="author" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Carlos Molero - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Carlos Coria Portfolio Site" name="description" />
+    <meta content="Mannatthemes" name="author" />
 
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
 
-        <link href="plugins/filter/magnific-popup.css" rel="stylesheet" type="text/css" />
-        <link href="plugins/animated/headline.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link
+      href="plugins/filter/magnific-popup.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="plugins/animated/headline.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
 
-        <!-- App css -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/icons.css" rel="stylesheet" type="text/css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- App css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-    </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="uil uil-cell text-primary"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nav"
+          aria-controls="nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span></button
+        ><!--end navbar-toggler-->
 
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
-            <div class="container">
-                <a class="navbar-brand" href="#"><i class='uil uil-cell text-primary'></i></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button><!--end navbar-toggler-->
-                
-                <div class="collapse navbar-collapse" id="nav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="btn btn-blue btn-sm px-4" href="https://docs.google.com/document/d/1eHe6Q2PIktrcDH44GnjJT5vWUYXiMpGA1kbnZtDtoe0/edit?usp=sharing"><i class="'uil uil-file mr-1 font-16"></i>View Resume</a>
-                        </li>                        
-                    </ul>                   
-                </div><!--end collapse-->
-            </div><!--end container-->          
-        </nav><!--end nav-->
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a
+                class="btn btn-blue btn-sm px-4"
+                href="https://docs.google.com/document/d/1eHe6Q2PIktrcDH44GnjJT5vWUYXiMpGA1kbnZtDtoe0/edit?usp=sharing"
+                ><i class="'uil uil-file mr-1 font-16"></i>View Resume</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--end collapse-->
+      </div>
+      <!--end container-->
+    </nav>
+    <!--end nav-->
 
-        <div class="main-wraper"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-print-12 px-0">
-                        <div class="profile-box-left" id="profile_ripple"> 
-                            <div class="zoo-profile-main-pic">
-                                <img src="images/users/profile_pic.jpeg" alt="" height="100" class="rounded-circle d-block mx-auto">
-                                <a class="zoo-user-chat" href="#contact">
-                                    <i class="uil uil-comment-dots"></i>
-                                </a>
-                            </div>
-                            <div class="zoo-profile_user-detail">
-                                <h5 class="zoo-user-name">Carlos Molero</h5>                                                        
-                                <p class="cd-headline loading-bar">
-                                    <span class="cd-words-wrapper">
-                                        <b class="is-visible">Software Engineer</b>
-                                        <b>Graphic Designer</b>
-                                        <b>Python Instructor</b>
-                                    </span>
+    <div class="main-wraper" style="padding-top: 6rem">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-print-12 px-0">
+            <div class="profile-box-left" id="profile_ripple">
+              <div
+                class="zoo-profile-main-pic"
+                style="
+                  height: 100px;
+                  width: 100px;
+                  overflow: hidden;
+                  display: flex;
+                  justify-content: center;
+                  border-radius: 50%;
+                  align-items: center;
+                  margin: auto;
+                "
+              >
+                <img
+                  src="images/users/profile_pic.jpeg"
+                  alt=""
+                  height="120px"
+                  width="auto"
+                  style="
+                    position: relative;
+                    left: 1rem;
+                    bottom: 2rem;
+                    transform: rotate(-50deg);
+                    display: inline-block;
+                  "
+                  class="rounded-circle d-block mx-auto"
+                />
+              </div>
+              <div class="zoo-profile_user-detail">
+                <h5 class="zoo-user-name">Carlos Molero</h5>
+                <p class="cd-headline loading-bar">
+                  <span class="cd-words-wrapper">
+                    <b class="is-visible">Software Engineer</b>
+                    <b>Graphic Designer</b>
+                    <b>Python Instructor</b>
+                  </span>
+                </p>
+              </div>
+              <!--end zoo-profile_user-detail-->
+
+              <ul class="list-unstyled personal-detail mx-auto">
+                <li>
+                  <i class="uil uil-phone-volume"></i>
+                  : (954) 864-9693
+                </li>
+                <li class="mt-1">
+                  <i class="uil uil-envelope mt-2"></i>
+                  : cmolero130@gmail.com
+                </li>
+              </ul>
+              <!--end personal-detail-->
+
+              <div class="profile-socials">
+                <ul class="list-inline social-icon text-center mx-auto mb-4">
+                  <li class="list-inline-item">
+                    <a
+                      href="https://www.linkedin.com/in/carlos-molero/"
+                      class="bg-blue"
+                    >
+                      <i class="uil uil-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://github.com/cmolerov" class="bg-success">
+                      <i class="uil uil-github"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      href="https://angel.co/u/carlos-molero-2"
+                      class="bg-dark"
+                    >
+                      <i class="fab fa-angellist"></i>
+                    </a>
+                  </li>
+                </ul>
+                <!--end social-icon-->
+              </div>
+            </div>
+            <!--end profile-box-left -->
+            <div class="profile-box-right">
+              <section class="section-md">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h4 class="header-title mb-3">About me !</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-6 col-print-6">
+                      <h4 class="text-primary font-weight-bold">
+                        I'm Carlos Molero
+                      </h4>
+
+                      <p>
+                        I'm a Software Engineer with a near-compulsive desire to
+                        explore the unfamiliar, which allows me to always be
+                        solving problems, using creativity and willingness to
+                        learn from others. I have experience building dynamic
+                        web applications in JavaScript, Python, React/Redux, and
+                        HTML/CSS, I strive to be a constant student by
+                        dedicating myself to gain more knowledge and skill. I'm
+                        an enthusiastic teammate and a patient communicator.
+                        seeking opportunities to be collaborating with others to
+                        achieve an end goal. Coming from a background in
+                        Restaurants a lot of the skills I learned I am able to
+                        apply to my everyday work (patience, working and
+                        managing others, time management, managing high pace and
+                        stressful environments, determination and persistence to
+                        seek things to the end.
+                      </p>
+                      <a
+                        type="button"
+                        class="btn btn-sm btn-soft-primary"
+                        href="https://docs.google.com/document/d/1wxZh-1ewv7QGLZ6lAJDkPF1WeCY8WJDpwlknCxWk0LM/edit?usp=sharing"
+                        >View Cover Letter</a
+                      >
+                    </div>
+                    <!--end col-->
+                    <div
+                      class="col-sm-5 col-print-5 offset-lg-1 align-self-center"
+                    >
+                      <p>
+                        <span class="personal-detail-title">Name</span>
+                        <span class="personal-detail-info">Carlos Molero</span>
+                      </p>
+                      <p>
+                        <span class="personal-detail-title">Date of birth</span>
+                        <span class="personal-detail-info"
+                          >30 January 1998</span
+                        >
+                      </p>
+                      <p>
+                        <span class="personal-detail-title"
+                          >Spoken Langages</span
+                        >
+                        <span class="personal-detail-info"
+                          >English - Spanish</span
+                        >
+                      </p>
+                      <p>
+                        <span class="personal-detail-title">Nationality</span>
+                        <span class="personal-detail-info">USA</span>
+                      </p>
+                      <p>
+                        <span class="personal-detail-title">Interest</span>
+                        <span class="personal-detail-info"
+                          >Music, Reading, Coding, Wakeboarding, Fishing,</span
+                        >
+                      </p>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-->
+              </section>
+              <!--end section-->
+
+              <section class="section-md">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h4 class="header-title mb-3">Education & Skills</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-7 col-print-7">
+                      <div class="row">
+                        <div class="col-sm-6 col-print-6">
+                          <div class="resume-icon">
+                            <i class="uil uil-graduation-hat"></i>
+                            <h5 class="mt-n2">Education</h5>
+                          </div>
+                          <!--end resume-icon-->
+                          <div class="timeline">
+                            <div class="time-item mt-3">
+                              <div class="item-info">
+                                <div class="font-14 text-primary">
+                                  2020 - 2021
+                                </div>
+                                <h5 class="my-1">APP ACADEMY</h5>
+                                <p class="text-muted">
+                                  Software Engineering Bootcamp
                                 </p>
-                            </div><!--end zoo-profile_user-detail-->
-
-                            <ul class="list-unstyled personal-detail mx-auto">
-                                <li>
-                                    <i class="uil uil-phone-volume"></i> 
-                                    : (954) 864-9693
-                                </li>
-                                <li class="mt-1">
-                                    <i class="uil uil-envelope mt-2"></i> 
-                                    : cmolero130@gmail.com
-                                </li>
-                            </ul><!--end personal-detail-->
-                            
-                            <div class="profile-socials">                                
-                                <ul class="list-inline social-icon text-center mx-auto mb-4"> 
-                                    <li class="list-inline-item">
-                                        <a href="https://www.linkedin.com/in/carlos-molero/" class="bg-blue">
-                                            <i class="uil uil-linkedin "></i>
-                                        </a>
-                                    </li>   
-                                    <li class="list-inline-item">
-                                        <a href="https://github.com/cmolerov" class="bg-success">
-                                            <i class="uil uil-github"></i>
-                                        </a>
-                                    </li>   
-                                    <li class="list-inline-item">
-                                        <a href="https://angel.co/u/carlos-molero-2" class="bg-dark">
-                                            <i class="fab fa-angellist"></i>
-                                        </a>
-                                    </li>
-                                </ul><!--end social-icon-->
+                              </div>
                             </div>
-                        </div><!--end profile-box-left --> 
-                        <div class="profile-box-right">
-                            <section class="section-md">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <h4 class="header-title mb-3">About me !</h4>
-                                        </div><!--end col-->
-                                        <div class="col-sm-6 col-print-6">
-                                            <h4 class="text-primary font-weight-bold">I'm Carlos Molero</h4>
-                                            
-                                            <p>I'm a Software Engineer with a near-compulsive desire to explore the unfamiliar, which allows me to always be solving
-                                            problems, using creativity and willingness to learn from others. I have experience building dynamic web applications in
-                                            JavaScript, Python, React/Redux, and HTML/CSS, I strive to be a constant student by dedicating myself to gain more
-                                            knowledge and skill. I'm an enthusiastic teammate and a patient communicator. seeking opportunities to be collaborating
-                                            with others to achieve an end goal. Coming from a background in Restaurants a lot of the skills I learned I am able to
-                                            apply to my everyday work (patience, working and managing others, time management, managing high pace and stressful environments,
-                                            determination and persistence to seek things to the end.
-                                            </p>
-                                            <a type="button" class="btn btn-sm btn-soft-primary" href="https://docs.google.com/document/d/1wxZh-1ewv7QGLZ6lAJDkPF1WeCY8WJDpwlknCxWk0LM/edit?usp=sharing">View Cover Letter</a>
-                                        </div><!--end col-->
-                                        <div class="col-sm-5 col-print-5 offset-lg-1 align-self-center">
-                                            <p>
-                                                <span class="personal-detail-title">Name</span>
-                                                <span class="personal-detail-info">Carlos Molero</span>
-                                            </p>
-                                            <p>
-                                                <span class="personal-detail-title">Date of birth</span>
-                                                <span class="personal-detail-info">30 January 1998</span>
-                                            </p>
-                                            <p>
-                                                <span class="personal-detail-title">Spoken Langages</span>
-                                                <span class="personal-detail-info">English - Spanish</span>
-                                            </p>
-                                            <p>
-                                                <span class="personal-detail-title">Nationality</span>
-                                                <span class="personal-detail-info">USA</span>
-                                            </p>
-                                            <p>
-                                                <span class="personal-detail-title">Interest</span>
-                                                <span class="personal-detail-info">Music, Reading, Coding, Wakeboarding, Fishing,</span>
-                                            </p>
-                                        </div><!--end col-->
-                                    </div><!--end row-->
-                                </div><!--end container-->
-                            </section><!--end section-->
-                
-                            <section class="section-md">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <h4 class="header-title mb-3">Education & Skills</h4>
-                                        </div><!--end col-->
-                                        <div class="col-sm-7 col-print-7">
-                                            <div class="row">
-                                                <div class="col-sm-6 col-print-6">
-                                                    <div class="resume-icon">
-                                                        <i class="uil uil-graduation-hat"></i>
-                                                        <h5 class="mt-n2">Education</h5>
-                                                    </div><!--end resume-icon--> 
-                                                    <div class="timeline">
-                                                        <div class="time-item  mt-3">
-                                                            <div class="item-info">
-                                                                <div class="font-14 text-primary">2020 - 2021</div>
-                                                                <h5 class="my-1">APP ACADEMY</h5>
-                                                                <p class="text-muted">Software Engineering Bootcamp</p>
-                                                            </div>
-                                                        </div><!--end time-item--> 
-                                                        <div class="time-item">
-                                                            <div class="item-info">
-                                                                <div class="font-14 text-primary">2018</div>
-                                                                <h5 class="my-1">Broward College</h5>
-                                                                <p class="text-muted">International Business</p>
-                                                            </div>
-                                                        </div><!--end time-item--> 
-                                                    </div><!--end timeline-->
-                                                </div><!--end col-->
-                                                <div class="col-sm-6 col-print-6">
-                                                    <div class="resume-icon">
-                                                        <i class="uil uil-suitcase-alt"></i>
-                                                        <h5 class="mt-n2">Experience</h5>
-                                                    </div><!--end resume-icon-->   
-                                                    <div class="timeline">
-                                                    <div class="time-item">
-                                                            <div class="item-info">
-                                                                <div class="font-14 text-primary">Feb '21 - May '21</div>
-                                                                <h5 class="my-1">Quirch Foods</h5>
-                                                                <p class="text-muted">Software Developer</p>
-                                                            </div>
-                                                        </div><!--end time-item-->  
-                                                        <div class="time-item  mt-3">
-                                                            <div class="item-info">
-                                                                <div class="font-14 text-primary">2016-2020</div>
-                                                                <h5 class="my-1">Restuarant Manangement</h5>
-                                                                <p class="text-muted">Manager</p>
-                                                            </div>
-                                                        </div><!--end time-item-->   
-                                                    </div><!--end timeline-->   
-                                                </div><!--end col-->   
-                                            </div><!--end row-->   
-                                        </div><!--end col--> 
-                                        <div class="col-sm-5 col-print-5 align-self-center">
-                                            <div class="skills mt-4">
-                                                <div class="skill-box"> 
-                                                    <h4 class="skill-title">Front-End</h4> 
-                                                    <div class="progress-line"> 
-                                                        <span data-percent="90" style="width: 90%;">
-                                                            <span class="percent-tooltip">90%</span>
-                                                        </span> 
-                                                    </div>
-                                                </div><!--end skill-box-->
-                                                <div class="skill-box"> 
-                                                    <h4 class="skill-title">Back-End</h4> 
-                                                    <div class="progress-line"> 
-                                                        <span data-percent="80" style="width: 80%;">
-                                                            <span class="percent-tooltip">80%</span>
-                                                        </span> 
-                                                    </div>
-                                                </div><!--end skill-box-->
-                                                <div class="skill-box"> 
-                                                    <h4 class="skill-title">UI/UX Design</h4> 
-                                                    <div class="progress-line"> 
-                                                        <span data-percent="80" style="width: 80%;">
-                                                            <span class="percent-tooltip">80%</span>
-                                                        </span> 
-                                                    </div>
-                                                </div><!--end skill-box-->
-                                                <div class="skill-box"> 
-                                                    <h4 class="skill-title">Figma </h4> 
-                                                    <div class="progress-line"> 
-                                                        <span data-percent="70" style="width: 70%;">
-                                                            <span class="percent-tooltip">70%</span>
-                                                        </span> 
-                                                    </div>
-                                                </div><!--end skill-box-->
-                                            </div><!--end skill-->
-                                        </div><!--end col-->
-                                                               
-                                    </div><!--end row-->
-                                </div><!--end container-->
-                            </section><!--end section-->
-                            <section class="section-md my-work">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <h4 class="header-title mb-3">Projects & Review</h4>
-                                        </div><!--end col--> 
-                                        <div class="col-12 row d-flex justify-content-around w-100">
-                                            <div class="card mt-5 custom-card" style="width: 30rem;">
-                                                <img class="card-img-top" src="images/portfolio/umamiCook.png" alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Umami</h5>
-                                                    <p class="card-text">A personal app that allows users to keep track and create recipes</p>
-                                                    <a href="https://umami-cookbook.herokuapp.com/welcome" class="btn btn-primary">Live Link</a>
-                                                </div>
-                                            </div>
-                                            <div class="card mt-5 custom-card" style="width: 30rem;">
-                                                <img class="card-img-top" src="images/portfolio/roadIsLavacap.png" alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">The Road is Lava</h5>
-                                                    <p class="card-text">A app that allows users to plan and map out routes to excercise with random obstacles in the way.</p>
-                                                    <a href="https://theroadislava.herokuapp.com/" class="btn btn-primary">Live Link</a>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="card mt-5 custom-card" style="width: 30rem;">
+                            <!--end time-item-->
+                            <div class="time-item">
+                              <div class="item-info">
+                                <div class="font-14 text-primary">2018</div>
+                                <h5 class="my-1">Broward College</h5>
+                                <p class="text-muted">International Business</p>
+                              </div>
+                            </div>
+                            <!--end time-item-->
+                          </div>
+                          <!--end timeline-->
+                        </div>
+                        <!--end col-->
+                        <div class="col-sm-6 col-print-6">
+                          <div class="resume-icon">
+                            <i class="uil uil-suitcase-alt"></i>
+                            <h5 class="mt-n2">Experience</h5>
+                          </div>
+                          <!--end resume-icon-->
+                          <div class="timeline">
+                            <div class="time-item">
+                              <div class="item-info">
+                                <div class="font-14 text-primary">
+                                  Feb '21 - May '21
+                                </div>
+                                <h5 class="my-1">Quirch Foods</h5>
+                                <p class="text-muted">Software Developer</p>
+                              </div>
+                            </div>
+                            <!--end time-item-->
+                            <div class="time-item mt-3">
+                              <div class="item-info">
+                                <div class="font-14 text-primary">
+                                  2016-2020
+                                </div>
+                                <h5 class="my-1">Restuarant Manangement</h5>
+                                <p class="text-muted">Manager</p>
+                              </div>
+                            </div>
+                            <!--end time-item-->
+                          </div>
+                          <!--end timeline-->
+                        </div>
+                        <!--end col-->
+                      </div>
+                      <!--end row-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-5 col-print-5 align-self-center">
+                      <div class="skills mt-4">
+                        <div class="skill-box">
+                          <h4 class="skill-title">Front-End</h4>
+                          <div class="progress-line">
+                            <span data-percent="90" style="width: 90%">
+                              <span class="percent-tooltip">90%</span>
+                            </span>
+                          </div>
+                        </div>
+                        <!--end skill-box-->
+                        <div class="skill-box">
+                          <h4 class="skill-title">Back-End</h4>
+                          <div class="progress-line">
+                            <span data-percent="80" style="width: 80%">
+                              <span class="percent-tooltip">80%</span>
+                            </span>
+                          </div>
+                        </div>
+                        <!--end skill-box-->
+                        <div class="skill-box">
+                          <h4 class="skill-title">UI/UX Design</h4>
+                          <div class="progress-line">
+                            <span data-percent="80" style="width: 80%">
+                              <span class="percent-tooltip">80%</span>
+                            </span>
+                          </div>
+                        </div>
+                        <!--end skill-box-->
+                        <div class="skill-box">
+                          <h4 class="skill-title">Figma</h4>
+                          <div class="progress-line">
+                            <span data-percent="70" style="width: 70%">
+                              <span class="percent-tooltip">70%</span>
+                            </span>
+                          </div>
+                        </div>
+                        <!--end skill-box-->
+                      </div>
+                      <!--end skill-->
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-->
+              </section>
+              <!--end section-->
+              <section class="section-md my-work">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h4 class="header-title mb-3">Projects & Review</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-12 row d-flex justify-content-around w-100">
+                      <div class="card mt-5 custom-card" style="width: 30rem">
+                        <img
+                          class="card-img-top"
+                          src="images/portfolio/umamiCook.png"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Umami</h5>
+                          <p class="card-text">
+                            A personal app that allows users to keep track and
+                            create recipes
+                          </p>
+                          <a
+                            href="https://umami-cookbook.herokuapp.com/welcome"
+                            class="btn btn-primary"
+                            >Live Link</a
+                          >
+                        </div>
+                      </div>
+                      <div class="card mt-5 custom-card" style="width: 30rem">
+                        <img
+                          class="card-img-top"
+                          src="images/portfolio/roadIsLavacap.png"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">The Road is Lava</h5>
+                          <p class="card-text">
+                            A app that allows users to plan and map out routes
+                            to excercise with random obstacles in the way.
+                          </p>
+                          <a
+                            href="https://theroadislava.herokuapp.com/"
+                            class="btn btn-primary"
+                            >Live Link</a
+                          >
+                        </div>
+                      </div>
+                      <!-- <div class="card mt-5 custom-card" style="width: 30rem;">
                                                 <img class="card-img-top" src="images/portfolio/listenup.png" alt="Card image cap">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Pytrader</h5>
@@ -263,73 +408,157 @@
                                                     <a href="https://aa-listen-up.herokuapp.com/" class="btn btn-primary">Live Link</a>
                                                 </div>
                                             </div> -->
-                                            <div class="card mt-5 custom-card" style="width: 30rem;">
-                                                <img class="card-img-top" src="images/portfolio/listenup.png" alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Listenup</h5>
-                                                    <p class="card-text">A cataloging website that allows users to interact with a database of podcasts.</p>
-                                                    <a href="https://aa-listen-up.herokuapp.com/" class="btn btn-primary">Live Link</a>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                        <div class="col-sm-12 col-print-12 align-self-center">
-                                            <div class="p-4">
-                                                <div class="text-center">
-                                                    <h2><i class="uil uil-feedback text-primary"></i></h2>
-                                                </div> <!--end /div-->                                           
-                                                <div id="carouselExampleFade2" class="carousel slide" data-ride="carousel">
-                                                    <div class="carousel-inner">
-                                                        <div class="carousel-item">
-                                                            <div class="text-center">
-                                                                <p class="px-4">
-                                                                    During my time at App Academy, I have had the pleasure of working with Carlos on multiple projects. He has consistently
-                                                                    put in an effort to improve his software engineering skills in any coding environment. There were quite a few instances
-                                                                    where he found creative ways to tackle programming issues, whether it was related to IDE issues, version updates, and
-                                                                    testing pieces of legacy code. Whenever we faced any challenges he was very easy to work with because to this day he
-                                                                    remains honest and diligent in his craft.
-                                                                </p>
-                                                                <div>
-                                                                    <img src="images/portfolio/hassan.jpeg" alt="" class="rounded-circle thumb-md mb-2">
-                                                                    <p class="mb-0 text-primary"><b>Hassan Tariq- Software Developer</b></p>
-                                                                    <small class="text-muted">via LinkedIn</small>
-                                                                </div>                                                            
-                                                            </div>
-                                                        </div><!--end carousel-item-->
-                                                        <div class="carousel-item active">
-                                                            <div class="text-center">
-                                                                <p class="px-4">                                                                
-                                                                During my time at App Academy, I have had the pleasure of working with Carlos on multiple projects. He has consistently
-                                                                put in an effort to improve his software engineering skills in any coding environment. There were quite a few instances
-                                                                where he found creative ways to tackle programming issues, whether it was related to IDE issues, version updates, and
-                                                                testing pieces of legacy code. Whenever we faced any challenges he was very easy to work with because to this day he
-                                                                remains honest and diligent in his craft.
-                                                                </p>
-                                                                <div>
-                                                                    <img src="images/portfolio/hassan.jpeg" alt="" class="rounded-circle thumb-md mb-2">
-                                                                    <p class="mb-0 text-primary"><b>Hassan Tariq- Software Developer</b></p>
-                                                                    <small class="text-muted">via LinkedIn</small>
-                                                                </div>                                                            
-                                                            </div>
-                                                        </div><!--end carousel-item-->
-                                                    </div><!--end carousel-inner-->                                    
-                                                </div><!--end carousel-->
-                                            </div><!--end /div-->
-                                        </div><!--end col-->  
-                                            
-                                         
-                                    </div><!--end row-->  
-                                </div><!--end container-->  
-                            </section> <!--end section--> 
+                      <div class="card mt-5 custom-card" style="width: 30rem">
+                        <img
+                          class="card-img-top"
+                          src="images/portfolio/listenup.png"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Listenup</h5>
+                          <p class="card-text">
+                            A cataloging website that allows users to interact
+                            with a database of podcasts.
+                          </p>
+                          <a
+                            href="https://aa-listen-up.herokuapp.com/"
+                            class="btn btn-primary"
+                            >Live Link</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-print-12 align-self-center">
+                      <div class="p-4">
+                        <div class="text-center">
+                          <h2><i class="uil uil-feedback text-primary"></i></h2>
+                        </div>
+                        <!--end /div-->
+                        <div
+                          id="carouselExampleFade2"
+                          class="carousel slide"
+                          data-ride="carousel"
+                        >
+                          <div class="carousel-inner">
+                            <div class="carousel-item">
+                              <div class="text-center">
+                                <p class="px-4">
+                                  During my time at App Academy, I have had the
+                                  pleasure of working with Carlos on multiple
+                                  projects. He has consistently put in an effort
+                                  to improve his software engineering skills in
+                                  any coding environment. There were quite a few
+                                  instances where he found creative ways to
+                                  tackle programming issues, whether it was
+                                  related to IDE issues, version updates, and
+                                  testing pieces of legacy code. Whenever we
+                                  faced any challenges he was very easy to work
+                                  with because to this day he remains honest and
+                                  diligent in his craft.
+                                </p>
+                                <div>
+                                  <img
+                                    src="images/portfolio/hassan.jpeg"
+                                    alt=""
+                                    class="rounded-circle thumb-md mb-2"
+                                  />
+                                  <p class="mb-0 text-primary">
+                                    <b>Hassan Tariq- Software Developer</b>
+                                  </p>
+                                  <small class="text-muted">via LinkedIn</small>
+                                </div>
+                              </div>
+                            </div>
+                            <!--end carousel-item-->
+                            <div class="carousel-item active">
+                              <div class="text-center">
+                                <p class="px-4">
+                                  During my time at App Academy, I have had the
+                                  pleasure of working with Carlos on multiple
+                                  projects. He has consistently put in an effort
+                                  to improve his software engineering skills in
+                                  any coding environment. There were quite a few
+                                  instances where he found creative ways to
+                                  tackle programming issues, whether it was
+                                  related to IDE issues, version updates, and
+                                  testing pieces of legacy code. Whenever we
+                                  faced any challenges he was very easy to work
+                                  with because to this day he remains honest and
+                                  diligent in his craft.
+                                </p>
+                                <div>
+                                  <img
+                                    src="images/portfolio/hassan.jpeg"
+                                    alt=""
+                                    class="rounded-circle thumb-md mb-2"
+                                  />
+                                  <p class="mb-0 text-primary">
+                                    <b>Hassan Tariq- Software Developer</b>
+                                  </p>
+                                  <small class="text-muted">via LinkedIn</small>
+                                </div>
+                              </div>
+                            </div>
+                            <!--end carousel-item-->
+                          </div>
+                          <!--end carousel-inner-->
+                        </div>
+                        <!--end carousel-->
+                      </div>
+                      <!--end /div-->
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-->
+              </section>
+              <!--end section-->
 
-                            <section class="section-md my-work">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <h4 class="header-title mb-3">Graphic Designs</h4>
-                                        </div><!--end col-->  
-                                        <div class="col-sm-12 col-print-12 align-self-center">
-                                            <div class="p-4">  
+              <section class="section-md my-work">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h4 class="header-title mb-3">Graphic Designs</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-12 col-print-12 align-self-center">
+                      <div class="p-4">
+                        <div
+                          id="carouselExampleIndicators"
+                          class="carousel slide mt-5"
+                          data-ride="carousel"
+                        >
+                          <ol class="carousel-indicators">
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="0"
+                              class="active"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="1"
+                            ></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="text-center">
+                                <div>
+                                  <img
+                                    src="images/portfolio/listenUppic.png"
+                                    alt=""
+                                    class="rounded mb-2"
+                                    height="300"
+                                  />
+                                  <p class="mb-0 text-primary">
+                                    <b>Promotional Material</b>
+                                  </p>
+                                  <small class="text-muted">for ListenUp</small>
+                                </div>
+                              </div>
+                            </div>
 
+<<<<<<< HEAD
                                                 <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -504,20 +733,287 @@
             </div><!-- container -->
         </div><!--end main-wraper-->
         
+=======
+                            <div class="carousel-item">
+                              <div class="text-center">
+                                <div>
+                                  <img
+                                    src="images/portfolio/roadIsLavacap.png"
+                                    alt=""
+                                    class="rounded mb-2"
+                                    height="300"
+                                  />
+                                  <p class="mb-0 text-primary">
+                                    <b>Promotional Material</b>
+                                  </p>
+                                  <small class="text-muted"
+                                    >for Road is Lava</small
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="text-center">
+                                <div>
+                                  <img
+                                    src="images/portfolio/roadlava.png"
+                                    alt=""
+                                    class="rounded mb-2"
+                                    height="300"
+                                  />
+                                  <p class="mb-0 text-primary">
+                                    <b>Promotional Material</b>
+                                  </p>
+                                  <small class="text-muted"
+                                    >for Road is Lava</small
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="text-center">
+                                <div>
+                                  <img
+                                    src="images/portfolio/umamiCook.png"
+                                    alt=""
+                                    class="rounded mb-2"
+                                    height="300"
+                                  />
+                                  <p class="mb-0 text-primary">
+                                    <b>Promotional Material</b>
+                                  </p>
+                                  <small class="text-muted"
+                                    >for Umami CookBook</small
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <a
+                            class="carousel-control-prev"
+                            href="#carouselExampleIndicators"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a
+                            class="carousel-control-next"
+                            href="#carouselExampleIndicators"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <!--end /div-->
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-->
+              </section>
+              <!--end section-->
 
-        <!-- jQuery  -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="plugins/ripple/jquery.ripples.js"></script>
-        <script src="plugins/animated/headline.js"></script>
-        <script src="plugins/counter/jquery.counterup.min.js"></script>
-        <script src="plugins/counter/waypoints.min.js"></script>
-        <script src="plugins/filter/isotope.pkgd.min.js"></script>
-        <script src="plugins/filter/masonry.pkgd.min.js"></script>
-        <script src="plugins/filter/jquery.magnific-popup.min.js"></script>
+              <section class="section-md my-clients">
+                <div class="container">
+                  <div class="row justify-content-between">
+                    <div class="col-md-2 col-6">
+                      <i
+                        class="fab fa-js-square img-fluid"
+                        style="font-size: 50px"
+                      ></i>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-2 col-6">
+                      <i class="fab fa-python" style="font-size: 50px"></i>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-2 col-6">
+                      <i class="fab fa-docker" style="font-size: 50px"></i>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-2 col-6">
+                      <i class="fas fa-database" style="font-size: 50px"></i>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-2 col-6">
+                      <i class="fab fa-react" style="font-size: 50px"></i>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-->
+              </section>
+              <!--end section-->
 
-        <!-- App js -->
-        <script src="js/app.js"></script>        
+              <section class="section-md contact-form" id="contact">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 mb-3">
+                      <h4 class="header-title mb-3">Contact Me</h4>
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-4">
+                      <div class="contact-info">
+                        <div class="icon">
+                          <i class="uil uil-phone-volume"></i>
+                        </div>
+                        <div class="content">
+                          <h5>Free Call To Me:</h5>
+                          <span>(+1) 954-864-9693</span>
+                        </div>
+                      </div>
+                      <!--end contact-info-->
 
-    </body>
+                      <div class="contact-info">
+                        <div class="icon">
+                          <i class="uil uil-envelope"></i>
+                        </div>
+                        <div class="content">
+                          <h5>Mail Me:</h5>
+                          <span>Cmolero130@gmail.com</span>
+                        </div>
+                      </div>
+                      <!--end contact-info-->
+
+                      <div class="contact-info">
+                        <div class="icon">
+                          <i class="uil uil-map-marker"></i>
+                        </div>
+                        <div class="content">
+                          <h5>Find Me:</h5>
+                          <span>Miami, Fl</span>
+                        </div>
+                      </div>
+                      <!--end contact-info-->
+                    </div>
+                    <!--end col-->
+                    <div class="col-sm-8">
+                      <div class="contact-form">
+                        <div id="message"></div>
+                        <form
+                          method="post"
+                          action="/php/contact.php"
+                          name="contact-form"
+                          id="contact-form"
+                        >
+                          <div class="row">
+                            <div class="form-group col-md-6">
+                              <label>Name</label>
+                              <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                id="name"
+                              />
+                            </div>
+                            <!--end col-->
+                            <div class="form-group col-md-6">
+                              <label>Email address</label>
+                              <input
+                                type="email"
+                                name="email"
+                                class="form-control"
+                                id="email"
+                              />
+                            </div>
+                            <!--end col-->
+                            <div class="form-group col-md-12">
+                              <label>Message</label>
+                              <textarea
+                                rows="4"
+                                name="message"
+                                class="form-control"
+                                id="comments"
+                              ></textarea>
+                            </div>
+                            <!--end col-->
+                            <div class="form-group col-md-12">
+                              <input
+                                type="submit"
+                                value="Submit now"
+                                name="submit"
+                                id="submit"
+                                class="btn btn-primary px-5 py-2"
+                              />
+                              <div id="simple-msg"></div>
+                            </div>
+                            <!--end col-->
+                          </div>
+                          <!--end row-->
+                        </form>
+                        <!--end form-->
+                      </div>
+                      <!--end contact-form-->
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-->
+              </section>
+              <!--end section-->
+>>>>>>> dca4c937c1e7cb58db9d33c9fe0e347cca66e99c
+
+              <section class="section-md thanks-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h3 class="text-center">Thank you !</h3>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-->
+              </section>
+              <!--end section-->
+              <footer class="footer-area">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12 text-center"></div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-->
+              </footer>
+              <!--end footer-area-->
+            </div>
+            <!--end profile-box-right -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--end main-wraper-->
+
+    <!-- jQuery  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="plugins/ripple/jquery.ripples.js"></script>
+    <script src="plugins/animated/headline.js"></script>
+    <script src="plugins/counter/jquery.counterup.min.js"></script>
+    <script src="plugins/counter/waypoints.min.js"></script>
+    <script src="plugins/filter/isotope.pkgd.min.js"></script>
+    <script src="plugins/filter/masonry.pkgd.min.js"></script>
+    <script src="plugins/filter/jquery.magnific-popup.min.js"></script>
+
+    <!-- App js -->
+    <script src="js/app.js"></script>
+  </body>
 </html>
